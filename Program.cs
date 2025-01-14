@@ -2,7 +2,7 @@
 
 Console.WriteLine("These are the command line args.");
 
-for (int i = 0; i < args.Length; i++)
+for (int i = 1; i < args.Length; i++)
 {
   Console.WriteLine($"- {args[i]}");
 
