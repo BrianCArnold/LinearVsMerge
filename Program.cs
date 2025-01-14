@@ -6,7 +6,7 @@
 
     Console.WriteLine($"Next we do some stuff with {nameof(TheListOfArgs)}");
 
-    foreach (var str in args)
+    foreach (var str in args.Skip(1))
     {
       TheListOfArgs.Add(str);
     }
